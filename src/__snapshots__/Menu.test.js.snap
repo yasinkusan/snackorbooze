@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches loading snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="col-md-4"
+  >
+    <div
+      class="card"
+    >
+      <div
+        class="card-body"
+      >
+        <h5
+          class="font-weight-bold text-center card-title"
+        >
+          Snacks Menu
+        </h5>
+        <p
+          class="card-text"
+          style="text-align: center;"
+        >
+          Explore all of our delish snacks below!
+        </p>
+        <ul
+          class="list-group"
+        >
+          <div
+            class="Item"
+          >
+            <a
+              data-testid="link-nachos"
+              href="/snacks/nachos"
+            >
+              <li
+                class="list-group-item"
+              >
+                Nachos
+              </li>
+            </a>
+          </div>
+          <div
+            class="Item"
+          >
+            <a
+              data-testid="link-hummus"
+              href="/snacks/hummus"
+            >
+              <li
+                class="list-group-item"
+              >
+                Hummus
+              </li>
+            </a>
+          </div>
+          <div
+            class="Item"
+          >
+            <a
+              data-testid="link-arugula-and-walnut-salad"
+              href="/snacks/arugula-and-walnut-salad"
+            >
+              <li
+                class="list-group-item"
+              >
+                Arugula and Walnut Salad
+              </li>
+            </a>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;
+
+exports[`matches rendered snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="col-md-4"
+  >
+    <div
+      class="card"
+    >
+      <div
+        class="card-body"
+      >
+        <h5
+          class="font-weight-bold text-center card-title"
+        >
+          Snacks Menu
+        </h5>
+        <p
+          class="card-text"
+          style="text-align: center;"
+        >
+          Explore all of our delish snacks below!
+        </p>
+        <ul
+          class="list-group"
+        >
+          <div
+            class="Item"
+          >
+            <a
+              data-testid="link-nachos"
+              href="/snacks/nachos"
+            >
+              <li
+                class="list-group-item"
+              >
+                Nachos
+              </li>
+            </a>
+          </div>
+          <div
+            class="Item"
+          >
+            <a
+              data-testid="link-hummus"
+              href="/snacks/hummus"
+            >
+              <li
+                class="list-group-item"
+              >
+                Hummus
+              </li>
+            </a>
+          </div>
+          <div
+            class="Item"
+          >
+            <a
+              data-testid="link-arugula-and-walnut-salad"
+              href="/snacks/arugula-and-walnut-salad"
+            >
+              <li
+                class="list-group-item"
+              >
+                Arugula and Walnut Salad
+              </li>
+            </a>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

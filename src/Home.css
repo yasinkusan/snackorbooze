@@ -1,0 +1,12 @@
+.Home-info {
+	color: #9e4a36;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+	transition: all .5s ease-in-out;
+}
+
+.Home-info:hover {
+	text-decoration: none;
+	color: #cf8369;
+	border-bottom: 2px solid #9e4a36;
+}

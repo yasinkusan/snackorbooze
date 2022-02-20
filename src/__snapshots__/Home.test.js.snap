@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches loading snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="Home"
+  >
+    <div
+      class="card"
+    >
+      <div
+        class="text-center card-body"
+      >
+        <h5
+          class="card-title"
+        />
+        <h3
+          class="font-weight-bold"
+        >
+          Welcome to Silicon Valley's premier dive cafe!
+        </h3>
+        <p
+          class="card-text"
+        />
+        <h3>
+          We have 
+          <a
+            class="Home-info"
+            href="/snacks"
+          >
+            1 snacks
+          </a>
+           and  
+          <a
+            class="Home-info"
+            href="/drinks"
+          >
+            1 drinks
+          </a>
+           to choose from!
+        </h3>
+        <p />
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;
+
+exports[`matches rendered snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="Home"
+  >
+    <div
+      class="card"
+    >
+      <div
+        class="text-center card-body"
+      >
+        <h5
+          class="card-title"
+        />
+        <h3
+          class="font-weight-bold"
+        >
+          Welcome to Silicon Valley's premier dive cafe!
+        </h3>
+        <p
+          class="card-text"
+        />
+        <h3>
+          We have 
+          <a
+            class="Home-info"
+            href="/snacks"
+          >
+            1 snacks
+          </a>
+           and  
+          <a
+            class="Home-info"
+            href="/drinks"
+          >
+            1 drinks
+          </a>
+           to choose from!
+        </h3>
+        <p />
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

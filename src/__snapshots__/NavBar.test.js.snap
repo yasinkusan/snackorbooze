@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches loading snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <nav
+      class="navbar navbar-expand-md"
+    >
+      <a
+        aria-current="page"
+        class="navbar-brand active"
+        href="/"
+      >
+        Snack or Booze
+      </a>
+      <ul
+        class="ml-auto navbar-nav"
+      >
+        <li
+          class="nav-item"
+        >
+          <a
+            href="/snacks"
+          >
+            Snacks
+          </a>
+        </li>
+        <li
+          class="nav-item"
+        >
+          <a
+            href="/drinks"
+          >
+            Drinks
+          </a>
+        </li>
+        <li
+          class="nav-item"
+        >
+          <a
+            href="/new"
+          >
+            Add Menu Item
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`matches rendered snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <nav
+      class="navbar navbar-expand-md"
+    >
+      <a
+        aria-current="page"
+        class="navbar-brand active"
+        href="/"
+      >
+        Snack or Booze
+      </a>
+      <ul
+        class="ml-auto navbar-nav"
+      >
+        <li
+          class="nav-item"
+        >
+          <a
+            href="/snacks"
+          >
+            Snacks
+          </a>
+        </li>
+        <li
+          class="nav-item"
+        >
+          <a
+            href="/drinks"
+          >
+            Drinks
+          </a>
+        </li>
+        <li
+          class="nav-item"
+        >
+          <a
+            href="/new"
+          >
+            Add Menu Item
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</DocumentFragment>
+`;
