@@ -9,9 +9,9 @@ import Item from './FoodItem';
 import NewItemForm from './NewItemForm';
 
 function App() {
-	const [ isLoading, setIsLoading ] = useState(true);
-	const [ snacks, setSnacks ] = useState([]);
-	const [ drinks, setDrinks ] = useState([]);
+	const [isLoading, setIsLoading] = useState(true);
+	const [snacks, setSnacks] = useState([]);
+	const [drinks, setDrinks] = useState([]);
 
 	// get drinks and snacks on page load and set state accordingly.
 	useEffect(() => {
@@ -25,20 +25,23 @@ function App() {
 		getItems();
 	}, []);
 
+
+	//Yasin comment
+
 	// function to add new item to state with proper formatting to match the db, and add to the db based on type
 	const addNewItem = async (newItem) => {
 		let itemFormatted = {
 			...newItem,
-			id      : newItem.name.toLowerCase().replace(' ', '-'),
-			userAdd : true
+			id: newItem.name.toLowerCase().replace(' ', '-'),
+			userAdd: true
 		};
 		// logic to decide whether to add to snacks or drinks state/db
 		if (newItem.type === 'snack') {
 			await SnackOrBoozeApi.addSnack(itemFormatted);
-			setSnacks((snacks) => [ ...snacks, itemFormatted ]);
+			setSnacks((snacks) => [...snacks, itemFormatted]);
 		} else if (newItem.type === 'drink') {
 			await SnackOrBoozeApi.addDrink(itemFormatted);
-			setDrinks((drinks) => [ ...drinks, itemFormatted ]);
+			setDrinks((drinks) => [...drinks, itemFormatted]);
 		}
 	};
 
