@@ -32,6 +32,7 @@ function App() {
 	//Yasin 4th comment
 	//Yasin 5th comment
 	//Yasin 6th comment
+	//Yasin 7th comment
 
 	// function to add new item to state with proper formatting to match the db, and add to the db based on type
 	const addNewItem = async (newItem) => {
